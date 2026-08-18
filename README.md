@@ -4,14 +4,26 @@
 
 ---
 
-## ⚡ Быстрый старт
+## ⚡ Быстрый старт (для всех)
 
-    # Скачать
+### Способ 1: Простое скачивание (как PDF)
+
+👉 **[СКАЧАТЬ SecureShield v1.0 — НАЖМИ СЮДА](https://github.com/Vebinter/secureshield-download/raw/master/secureshield_1.0_amd64.deb)**
+
+Файл скачается автоматически. Затем:
+1. Найди файл **secureshield_1.0_amd64.deb** в папке Загрузки
+2. **Двойной клик** по нему → откроется «Установщик пакетов»
+3. Нажми **«Установить»**
+4. Готово! Найди **SecureShield** в меню приложений
+
+### Способ 2: Через терминал (для админов)
+
     wget https://github.com/Vebinter/secureshield-download/raw/master/secureshield_1.0_amd64.deb
-    # Установить
     sudo dpkg -i secureshield_1.0_amd64.deb
-    # Активировать
-    sudo secureshield --activate <ваш_ключ>
+
+### Активация
+
+Открой SecureShield → нажми **Activate** → вставь ключ (Ctrl+V) → готово!
 
 ---
 
