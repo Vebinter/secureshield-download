@@ -6,7 +6,7 @@
 
 ## ⚡ Быстрый старт (для всех)
 
-### Способ 1: Простое скачивание (как PDF)
+### Способ 1: Простое скачивание (в 1 клик)
 
 👉 **[СКАЧАТЬ SecureShield v1.0 — НАЖМИ СЮДА](https://github.com/Vebinter/secureshield-download/raw/master/secureshield_1.0_amd64.deb)**
 
