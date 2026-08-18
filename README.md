@@ -1,91 +1,99 @@
-# 🛡️ SecureShield v1.0 — Linux Security Suite
+# SecureShield v1.0 - Linux Security Suite
 
-> **16 модулей кибербезопасности для вашего сервера. Установка за 30 секунд.**
+> 16 модулей кибербезопасности для вашего сервера. Установка за 30 секунд.
 
----
-
-## ⚡ Быстрый старт (для всех)
+## Быстрый старт
 
 ### Способ 1: Простое скачивание (в 1 клик)
 
-👉 **[СКАЧАТЬ SecureShield v1.0 — НАЖМИ СЮДА](https://github.com/Vebinter/secureshield-download/raw/master/secureshield_1.0_amd64.deb)**
+СКАЧАТЬ: https://github.com/Vebinter/secureshield-download/raw/master/secureshield_1.0_amd64.deb
 
-Файл скачается автоматически. Затем:
-1. Найди файл **secureshield_1.0_amd64.deb** в папке Загрузки
-2. **Двойной клик** по нему → откроется «Установщик пакетов»
-3. Нажми **«Установить»**
-4. Готово! Найди **SecureShield** в меню приложений
+1. Найди файл secureshield_1.0_amd64.deb в папке Загрузки
+2. Двойной клик -> Установщик пакетов -> Установить
+3. Готово! Найди SecureShield в меню приложений
 
-### Способ 2: Через терминал (для админов)
+### Способ 2: Через терминал
 
-    wget https://github.com/Vebinter/secureshield-download/raw/master/secureshield_1.0_amd64.deb
-    sudo dpkg -i secureshield_1.0_amd64.deb
+wget https://github.com/Vebinter/secureshield-download/raw/master/secureshield_1.0_amd64.deb
+sudo dpkg -i secureshield_1.0_amd64.deb
 
-### Активация
-
-Открой SecureShield → нажми **Activate** → вставь ключ (Ctrl+V) → готово!
-
----
-
-## 🔥 16 модулей защиты
+## 16 модулей защиты
 
 | # | Модуль | Что делает |
-|:--|:-------|:-----------|
-| 1 | 🔍 Port Scanner | Аудит открытых портов |
-| 2 | 📡 Process Monitor | Подозрительные процессы |
-| 3 | 🌐 Network Sentinel | Анализ трафика |
-| 4 | 📁 File Integrity | Целостность файлов |
-| 5 | 🛡️ AutoDefense | Автоблокировка атак |
-| 6 | 🔥 Firewall Hardening | Усиление nftables |
-| 7 | 📋 Compliance 152-ФЗ | GDPR/152-ФЗ аудит |
-| 8 | 📊 PDF Reports | Автогенерация отчётов |
-| 9 | 🗄️ SQLite History | Журнал сканирований |
-| 10 | 🦠 Rootkit Scanner | rkhunter + chkrootkit |
-| 11 | 🐳 Docker Scanner | Privileged контейнеры |
-| 12 | 📈 Log Anomaly | SSH brute-force детект |
-| 13 | 🔌 USB Monitor | Внешние устройства |
-| 14 | 💾 Backup Check | Целостность бэкапов |
-| 15 | 🔑 License Manager | Активация и оплата |
-| 16 | 🚨 Anti-Hacker | Cl0p/ransomware защита |
+|---|--------|-----------|
+| 1 | Port Scanner | Аудит открытых портов |
+| 2 | Process Monitor | Подозрительные процессы |
+| 3 | Network Sentinel | Анализ трафика |
+| 4 | File Integrity | Целостность файлов |
+| 5 | AutoDefense | Автоблокировка атак |
+| 6 | Firewall Hardening | Усиление nftables |
+| 7 | Compliance 152-FZ | GDPR/152-FZ аудит |
+| 8 | Reports | Автогенерация отчётов |
+| 9 | SQLite History | Журнал сканирований |
+| 10 | Rootkit Scanner | rkhunter + chkrootkit |
+| 11 | Docker Scanner | Privileged контейнеры |
+| 12 | Log Anomaly | SSH brute-force детект |
+| 13 | USB Monitor | Внешние устройства |
+| 14 | Backup Check | Целостность бэкапов |
+| 15 | License Manager | Активация и оплата |
+| 16 | Anti-Hacker | Cl0p/ransomware защита |
 
----
+## ТАРИФЫ (Чем больше - тем выгоднее!)
 
-## 💰 Тарифы
+| Серверов | Срок | Цена | Экономия | За сервер/мес |
+|----------|------|------|----------|---------------|
+| 1 | 1 мес | 7 000 руб | - | 7 000 руб |
+| 1 | 12 мес | 54 600 руб | 29 400 руб | 4 550 руб |
+| 5 | 1 мес | 28 000 руб | 7 000 руб | 5 600 руб |
+| 5 | 12 мес | 218 400 руб | 201 600 руб | 3 640 руб |
+| 10 | 12 мес | 354 900 руб | 485 100 руб | 2 957 руб |
+| 50 | 12 мес | 1 092 000 руб | 3 108 000 руб | 1 820 руб |
+| 100 | 12 мес | 1 638 000 руб | 6 762 000 руб | 1 365 руб |
 
-| План | Цена | Что включено |
-|:-----|:-----|:-------------|
-| **Trial** | 0 ₽ (7 дней) | Все 16 модулей |
-| **Personal** | 7 000 ₽/мес | 1 сервер, обновления |
-| **Business** | 15 000 ₽/мес | До 5 серверов |
-| **Enterprise** | 30 000 ₽/мес | Безлимит, SLA |
+### Горячие предложения:
 
-### 💳 Оплата
+- SOLO: 1 сервер на год = 54 600 руб (вместо 84 000 руб)
+- TEAM: 5 серверов на год = 218 400 руб (вместо 420 000 руб)
+- GROWTH: 10 серверов на год = 354 900 руб (вместо 840 000 руб)
+- CORP: 50 серверов на год = 1 092 000 руб (вместо 4 200 000 руб)
+- EMPIRE: 100 серверов на год = 1 638 000 руб (вместо 8 400 000 руб)
+
+### Бонусы:
+
+- Годовая оплата = 2 месяца БЕСПЛАТНО
+- 100+ серверов = персональный менеджер
+- Enterprise = SLA 99.9% + поддержка 24/7
+- Приведи друга = -10% на следующий месяц
+
+## Оплата
 
 | Способ | Реквизиты |
-|:-------|:----------|
+|--------|-----------|
 | СБП | +7 919 384-10-10 (Олег Б.) |
 | Яндекс Карта | 2204 3113 3013 1997 |
-| Комментарий | "SecureShield + тариф" |
+| Комментарий | SecureShield + тариф |
 
-После оплаты → [Telegram @oleg_belyaev_devops](https://t.me/oleg_belyaev_devops) → ключ за 1 час.
+После оплаты -> Telegram @oleg_belyaev_devops -> ключ за 1 час.
+
+## Активация
+
+1. Открой SecureShield -> нажми Activate
+2. Вставь ключ (Ctrl+V)
+3. Ключ автоматически привязывается к вашему серверу
+4. Готово! На другом сервере этот ключ НЕ заработает.
+
+## FAQ
+
+- Какие ОС? Ubuntu 22.04/24.04, Debian 12, Astra Linux SE
+- Нужен интернет? Нет. Работает офлайн.
+- Trial? Напишите в Telegram: Хочу trial (7 дней бесплатно)
+- Возврат? 14 дней без вопросов.
+
+## Контакты
+
+- Telegram: @oleg_belyaev_devops
+- GitHub: Vebinter
+- Сайт: vebinter.github.io
 
 ---
-
-## ❓ FAQ
-
-**Q: Какие ОС?** A: Ubuntu 22.04/24.04, Debian 12, Astra Linux SE.
-**Q: Нужен интернет?** A: Нет. Работает офлайн.
-**Q: Trial?** A: Напишите в [Telegram](https://t.me/oleg_belyaev_devops): "Хочу trial"
-**Q: Возврат?** A: 14 дней без вопросов.
-
----
-
-## 📞 Контакты
-
-- Telegram: [@oleg_belyaev_devops](https://t.me/oleg_belyaev_devops)
-- GitHub: [Vebinter](https://github.com/Vebinter)
-- Сайт: [vebinter.github.io](https://vebinter.github.io/secureshield-site/)
-
----
-
-**© 2026 Олег Беляев (Oleg Belyaev). Proprietary License.**
+2026 Олег Беляев (Oleg Belyaev). Proprietary License.
