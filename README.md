@@ -17,6 +17,35 @@
 wget https://github.com/Vebinter/secureshield-download/raw/master/secureshield_1.0_amd64.deb
 sudo dpkg -i secureshield_1.0_amd64.deb
 
+
+## Чем открыть .deb файл (Установщики пакетов)
+
+Если у вас нет установщика пакетов, скачайте один из этих:
+
+| Программа | Команда установки | Ссылка |
+|-----------|-------------------|--------|
+| GDebi (рекомендуется) | sudo apt install gdebi | Встроен в Ubuntu |
+| Ubuntu Software Center | Уже установлен | Меню приложений |
+| Eddy | sudo apt install eddy | github.com/donadigo/eddy |
+| dpkg (терминал) | sudo dpkg -i file.deb | Встроен в Linux |
+
+### Как установить SecureShield:
+
+1. Скачайте secureshield_1.0_amd64.deb
+2. Двойной клик по файлу
+3. Откроется GDebi / Ubuntu Software Center
+4. Нажмите "Установить"
+5. Готово!
+
+### Если нет установщика:
+
+Откройте терминал и напишите:
+
+sudo apt install gdebi
+
+Потом двойной клик по .deb файлу.
+
+
 ## 16 модулей защиты
 
 | # | Модуль | Что делает |
